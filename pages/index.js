@@ -24,7 +24,7 @@ export default function Home() {
         <Image src={image} alt="Grossstadt" />
       </div>
 
-      <p>
+      <p className="graph">
         I&apos;ve lived in Berlin for 4 years. It&apos;s one of two German
         cities I&apos;ve lived in. In the winter it is very grey here, and often
         cold. When it&apos;s warmer it feels like a different city.
@@ -41,6 +41,5 @@ export default function Home() {
         </ul>
       </section>
     </div>
-   
   );
 }
