@@ -21,7 +21,7 @@ export default function Home() {
       <br></br>
       <h3>Here&apos;s a photo of the city where I live. 🖼️</h3>
       <div>
-        <img src={image} alt="Grossstadt" />
+        <Image src={image} alt="Grossstadt" />
       </div>
 
       <p>
@@ -41,5 +41,6 @@ export default function Home() {
         </ul>
       </section>
     </div>
+   
   );
 }
