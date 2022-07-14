@@ -10,20 +10,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 class="color1">My Personal Page</h1>
+      <h1 classname="color1">My Personal Page</h1>
       <br> </br>
       <h2>
-        <span class="color2">Hi,</span>
+        <span classname="color2">Hi,</span>
         <span>I&apos;m Josh 👋</span>
       </h2>
       <h3>I&apos;m 36 years old.</h3>
       <br></br>
       <h3>Here&apos;s a photo of the city where I live. 🖼️</h3>
-      <img
+      <Image
         src="https://www.rbb24.de/content/dam/rbb/rbb/rbb24/2022/2022_03/dpa-account/berlin1.jpg.jpg/size=708x398.jpg"
         width="700"
         alt="Birds-eye view of Berlin"
-      ></img>
+      />
 
       <p>
         I&apos;ve lived in Berlin for 4 years. It&apos;s one of two German
@@ -32,9 +32,9 @@ export default function Home() {
       </p>
 
       <section>
-        <h2 class="color1">Hobbies</h2>
+        <h2 classname="color1">Hobbies</h2>
         <p>These are some things I enjoy.</p>
-        <ul class="color2">
+        <ul classname="color2">
           <li>Cooking food</li>
           <li>Trying to practice yoga</li>
           <li>Reading newspapers and books</li>
